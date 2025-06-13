@@ -1,13 +1,7 @@
+@import url('base.css');
+
 :root {
-  --bg: #ffffff;
-  --card-bg: #ffffff;
-  --primary: #3366ff;
-  --text: #333333;
-  --subtext: #9d9999;
-  --border: #e0e0e0;
-  --radius: 8px;
   --radiuscard: 15px;
-  --shadow: rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -176,4 +170,16 @@ body {
 }
 .emoji-nerd:hover .nerd-hand {
   margin-top: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    padding: 30px 20px;
+  }
+  .nerd-face {
+    font-size: 3rem;
+  }
+  .nerd-hand {
+    margin-left: -2rem;
+  }
 }

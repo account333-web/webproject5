@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Connexion - NerdSociety</title>
   <script src="/js/UX/theme_init.js"></script>
+  <link rel="stylesheet" href="css/base.css" type="text/css">
   <link rel="stylesheet" href="css/index.css" type="text/css">
   <link rel="icon" href="assets/icon.png" sizes="32x32" type="image/png">
   <script src="https://cdn.jsdelivr.net/npm/pixi.js@8.9.2/dist/pixi.min.js"></script>
 </head>
 <body>
+  <button id="theme-toggle" class="theme-toggle">🌓</button>
   <canvas id="candlestick-bg"></canvas>
   <div class="login-card">
     <center><div class="emoji-nerd" role="img" aria-label="Nerd qui pointe le doigt">
@@ -41,5 +43,6 @@
   </div>
   <p class="credit">made and maintained by chatgpt</p>
   <script src="/js/signin/index.js"></script>
+  <script src="/js/UX/theme.js" defer></script>
 </body>
 </html>

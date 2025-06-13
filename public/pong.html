@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gnop</title>
+  <script src="/js/UX/theme_init.js"></script>
+  <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/pong.css">
   <link rel="icon" href="assets/icon.png" sizes="32x32" type="image/png">
 </head>
 <body>
+  <button id="theme-toggle" class="theme-toggle">🌓</button>
   <!-- Popup de démarrage -->
   <div id="overlay">
     <div id="popup">
@@ -19,5 +22,6 @@
   <canvas id="gameCanvas" width="800" height="400"></canvas>
   <script src="/js/utils/api.js" defer></script>
   <script src="js/game/pong.js"></script>
+  <script src="/js/UX/theme.js" defer></script>
 </body>
 </html>
