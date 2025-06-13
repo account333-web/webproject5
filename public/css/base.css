@@ -225,3 +225,15 @@ h3 {
 #create-company-btn {
   margin-top: auto;
 }
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text);
+  z-index: 1000;
+}
